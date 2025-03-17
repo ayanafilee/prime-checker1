@@ -1,6 +1,7 @@
 import math
 
-def is_prime(n: int) -> bool:
+def is_prime(n: int) -> bool: # function
+    
     if n <= 1:
         return False
     if n == 2:
